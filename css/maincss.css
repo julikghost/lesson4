@@ -1,0 +1,106 @@
+header 
+{
+	font-family:Brush Script MT, Brush Script Std;
+	font-style: normal;
+	color:#7617B0;
+	background-color:#B74FEE;
+	text-align: center;
+	}
+	body{
+		font-family: Verdana, sans-serif;
+		font-style: normal;	
+		background:#A898B3;
+			}
+table
+{
+border-collapse: collapse;
+	width="100%;
+	}
+table td
+{
+border: 2px solid purple ;
+color: purple;
+	
+}
+footer
+{
+	font-family:Brush Script MT, Brush Script Std;
+	font-style: bold;
+	font-size: 20px; 
+	text-align: center;
+	color:#2FA013;
+	
+	background-color: lightblue;
+	border-top: 5px dotted;
+}
+.sidebar
+{
+font-size: 20px;
+background: #AE6BAB;
+}
+a
+{
+text-decoration: none;
+color:purple;
+}
+a:visited
+{
+text-decoration: none;
+}
+
+#backmenu
+{
+	background-color:#BB7291;
+}
+
+#backmenu ul 
+{
+	font-size: 30px;
+	font-style: bold;
+}
+
+
+#backmenu li:nth-child(odd)
+{
+	background: #7D5969;
+}
+
+ a [href^= "myarticules/article" ] 
+{
+	font-size:15 px;
+	font-style: italic;
+
+ } /* почемуто не работает, =(*/
+h2
+{
+color: white;
+}
+#cadfech 
+{
+	text-align: center;
+}
+#cadfech p
+{
+font-size:25 px;
+	font-style: italic;
+color: red;
+}
+#cadfech ul
+{
+	list-style-position: inside;
+	list-style-type: circle;
+}
+#cadfech ul .type
+{
+	list-style-position: inside;
+	list-style-type: square;
+	color: yellow;
+}
+  .images td
+{
+	border-style: none;
+     }
+ .image table
+{
+	align-content: center;
+}

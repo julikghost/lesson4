@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head> 
-	<meta name= "keywords" content="всяко разно регистрация бесплатно"> <!-- ДОБАВИТЬ КЛЮЧЧЕВОЕ СЛОВО-->
+	<meta name= "keywords" content="всяко,регистрация"> <!-- ДОБАВИТЬ КЛЮЧЧЕВОЕ СЛОВО-->
 	<meta charset="utf-8"> 
 	<title> Регистрация </title>
+  <link rel="stylesheet" href="css/maincss.css">
 </head>
 <body>
-    <table border="0" cellpadding="0" cellspacing="0" width="100%" >
-   <tr> <td> <header> <h1> Регистрация </h1>  </header></td> </tr> 
-	
+    <table >
+   <tr> <td colspan="6"> <header> <h1> Регистрация </h1>  </header></td> </tr> 
+	<tr class="sidebar">
+        <td width="20%" align="center"><a href="index.html" > Главная </td>
+        <td width="20%" align="center"><a href="articules.html">Статьи</a></td>
+        <td width="20%" align="center"><a href="catalog.html">Каталог</a></td>
+        <td width="20%" align="center"><a href="imagesg.html">Галерея</a></td>
+        <td width="20%" align="center"><a href="registration.html">Регистрация</a></td>
+        <td width="20%" align="center"><a href="contacts.html">Контакты</a></td>
+    </tr>
 		<tr ><!--основное меню -->
-         <td >
+        <td id="backmenu"> 
             <ul type="none">
                 <li> <a href="index.html"> Главная</a></li>
                 <li><a href="articules.html">Статьи </a></li>
@@ -19,9 +27,9 @@
                  <li><a href="contacts.html">Контанты</a></li>
             </ul>
             </td> 
-           <td>
+          
                <tr> 
-                  <td> 
+                  <td > 
                 <form method="post"><!--форма-->
               
              <fieldset > <legend><b>Ф.И.О</b></legend> 
@@ -31,7 +39,7 @@
             <input type="text" name="imia" id="name" value="введите своё имя" size="26"> </br>
             <p><label for="lastname">Oтчество</label> </p>
             <input type="text" name="otchestvo" id="lastname" value="введите своё отчество" size="26"> </br></br>
-            <input type="submit" name="save" value="Сохранить" ></br>
+            
             </fieldset>
             </td> 
       </tr>
@@ -51,8 +59,7 @@
                 <input type="passowrd" name="parol" id="ypassowrd" size="20" value="введите пароль"> </br>
                 <p><label for="link">Сайт</label></p>
                 <input type="url" name="linka" id="link" value="http://" size="20"></br> </br>
-                 <input type="submit" name="save2" value="Регистрация"></br>
-             </fieldset>
+                
              </td>
              </tr>
             <tr> 
@@ -79,7 +86,6 @@
                 <p><input name="dzen" type="radio" value="yes"> да</p>
                   <p><input name="dzen" type="radio" value="no"> неее</p>
                    <p><input name="dzen" type="radio" value="dunno" checked>хз</p>
-                      <p><input type="submit" value="Выбрать"></p>
 </fieldset>
             </tr>
             </td>
@@ -87,8 +93,7 @@
               <fieldset> <legend><b>немного о себе</b></legend>
              <textarea rows="10" cols="45" name="text" >                 
              </textarea>
-             <p><input type="submit" value="ввод"></p>
-
+             
 </fieldset>
 </td>
  </tr>
@@ -107,8 +112,8 @@
 
 		
 	 <tr>
-         <td > <footer> <hr> <p>© privacy JulikGhost</p> </footer>
-         </td>
+         <td colspan="6"> <footer> <hr> <p>&copy;&nbsp;&nbsp; privacy JulikGhost</p> </footer>
+     
     </tr> <!--Подвал.--> 
     </table>   
 	</body>
