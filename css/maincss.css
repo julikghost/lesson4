@@ -41,13 +41,16 @@ background: #AE6BAB;
 a
 {
 text-decoration: none;
-color:purple;
+color: purple
+
 }
 a:visited
 {
 text-decoration: none;
 }
-
+a[href*="myarticules"] {
+        color: #08fd8e;
+}
 #backmenu
 {
 	background-color:#BB7291;
@@ -59,21 +62,15 @@ text-decoration: none;
 	font-style: bold;
 }
 
-
 #backmenu li:nth-child(odd)
 {
 	background: #7D5969;
 }
 
- a [href^= "myarticules/article" ] 
-{
-	font-size:15 px;
-	font-style: italic;
-
- } /* почемуто не работает, =(*/
 h2
 {
 color: white;
+text-align: center;
 }
 #cadfech 
 {
@@ -82,7 +79,7 @@ color: white;
 #cadfech p
 {
 font-size:25 px;
-	font-style: italic;
+font-style: italic;
 color: red;
 }
 #cadfech ul
@@ -100,7 +97,9 @@ color: red;
 {
 	border-style: none;
      }
- .image table
+ .articules	 
 {
-	align-content: center;
-}
+	font-size:15 px;
+	font-style: italic;
+
+ } 
